@@ -17,6 +17,7 @@ Estudo sobre manipulação de DOM, Arrays e Objetos; utilizando como referência
 
 
 ## Sobre mim
+Olá, me chamo Beatriz Cortez!
 Sou graduanda em Engenharia de Software na FIAP, desbravando o mundo dev e ainda na batalha de alinhar uma div! ʕ•ᴥ•ʔ
 
 
