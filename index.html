@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/images.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://db.onlinewebfonts.com/c/2d605a6038ffe9917cbed3ed1212dd71?family=Lush" rel="stylesheet" type="text/css"/>
+    <title>LUSH Cosmetics</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>LUSH</h1>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-face-smile" style="color: #ffffff;"></a></i></li>
+                <li><a href="#"><img src="https://flagcdn.com/w40/br.png" alt="Brasil" class="icon-img"></a></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </nav>
+  </header>
+  <main>
+    <section id="hero-produtos">
+        <h1>Novidades</h1>
+    </section>
+    <section id="boas-vindas">
+        <p>Damos as boas-vindas ao que há de novo na Lush. Aqui você vai encontrar nossos produtos mais frescos com edições limitadas exclusivas, últimas inovações e seus próximos favoritos. <b>Clique</b> e confira tudo o que você precisa para começar sua revolução cosmética e transformar sua rotina de banho.</p>
+        <button id="btn-listar">Listar Novidades</button>
+        <form id="form-filtro">
+        <select id="categoria">
+            <option value="">Todas as Categorias</option>
+            <option value="Bomba de banho">Bomba de banho</option>
+            <option value="Sabão em barra">Sabão em barra</option>
+            <option value="Sais de banho">Sais de banho</option>
+            <option value="Creme de tratamento">Creme de tratamento</option>
+            <option value="Kit">Kit</option>
+        </select>
+        <label>
+            <input type="checkbox" id="disponiveis" />
+            Somente disponíveis
+        </label>
+        <button type="submit">Filtrar</button>
+    </section>
+    <section id="produtos"></section>
+  </main>
+</body>
+<script src="./assets/script.js"></script>
+</html>
